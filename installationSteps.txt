@@ -1,0 +1,22 @@
+######  Parent Package  ##########
+npm install @react-navigation/native
+
+
+######  Gesture, layout and animation libraries  ##########
+npm install react-native-gesture-handler react-native-screen react-native-safe-area-context @react-native-community/masked-view
+
+######  Drawer  ##########
+npm install @react-navigation/drawer
+
+
+
+######  Animated- version 2  ##########
+npm install react-native-reanimated@~2.2.0
+
+######  go to babel.config.json add this  ##########
+plugins:['react-native-reanimated/plugin]
+
+###### In app.jsx  ##########
+import 'react-native-gesture-handler'
+
+npm i react-native-paper
